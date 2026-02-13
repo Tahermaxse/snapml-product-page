@@ -1,0 +1,150 @@
+@import "tailwindcss";
+
+:root {
+  --background: #fff9f5;
+  --foreground: #000000;
+  --brand-gradient: linear-gradient(135deg, #ff8c00, #ea580c);
+  --font-sans: "Aeonik", sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+   --font-sans: var(--font-sans); 
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+}
+
+@font-face {
+    font-family: Aeonik;
+    src: url(https://cluely.com/_next/static/media/aeonik-air.9f61b37d.woff2) format("woff2"),url(https://cluely.com/_next/static/media/aeonik-air.1d6d6518.woff) format("woff");
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Aeonik;
+    src: url(https://cluely.com/_next/static/media/aeonik-airitalic.099ba6c6.woff2) format("woff2"),url(https://cluely.com/_next/static/media/aeonik-airitalic.3e179891.woff) format("woff");
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Aeonik;
+    src: url(https://cluely.com/_next/static/media/aeonik-thin.be06a111.woff2) format("woff2"),url(https://cluely.com/_next/static/media/aeonik-thin.750f6ac1.woff) format("woff");
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Aeonik;
+    src: url(https://cluely.com/_next/static/media/aeonik-thinitalic.a040e57b.woff2) format("woff2"),url(https://cluely.com/_next/static/media/aeonik-thinitalic.2b690424.woff) format("woff");
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Aeonik;
+    src: url(https://cluely.com/_next/static/media/aeonik-light.25619f87.woff2) format("woff2"),url(https://cluely.com/_next/static/media/aeonik-light.ff1e165d.woff) format("woff");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Aeonik;
+    src: url(https://cluely.com/_next/static/media/aeonik-lightitalic.40a4f8a2.woff2) format("woff2"),url(https://cluely.com/_next/static/media/aeonik-lightitalic.e2dd6bb9.woff) format("woff");
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Aeonik;
+    src: url(https://cluely.com/_next/static/media/aeonik-regular.046d8042.woff2) format("woff2"),url(https://cluely.com/_next/static/media/aeonik-regular.04741ff0.woff) format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Aeonik;
+    src: url(https://cluely.com/_next/static/media/aeonik-regularitalic.c98ff903.woff2) format("woff2"),url(https://cluely.com/_next/static/media/aeonik-regularitalic.03bf0472.woff) format("woff");
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Aeonik;
+    src: url(https://cluely.com/_next/static/media/aeonik-medium.6676ca55.woff2) format("woff2"),url(https://cluely.com/_next/static/media/aeonik-medium.d237bdbc.woff) format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Aeonik;
+    src: url(https://cluely.com/_next/static/media/aeonik-mediumitalic.70238fa2.woff2) format("woff2"),url(https://cluely.com/_next/static/media/aeonik-mediumitalic.2f5180ba.woff) format("woff");
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Aeonik;
+    src: url(https://cluely.com/_next/static/media/aeonik-semibold.acc6cd0d.woff2) format("woff2"),url(https://cluely.com/_next/static/media/aeonik-semibold.6dd165c6.woff) format("woff");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Aeonik;
+    src: url(https://cluely.com/_next/static/media/aeonik-semibolditalic.7c004a8f.woff2) format("woff2"),url(https://cluely.com/_next/static/media/aeonik-semibolditalic.815a64e5.woff) format("woff");
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Aeonik;
+    src: url(https://cluely.com/_next/static/media/aeonik-bold.b9c80ac2.woff2) format("woff2"),url(https://cluely.com/_next/static/media/aeonik-bold.3ac4595c.woff) format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Aeonik;
+    src: url(https://cluely.com/_next/static/media/aeonik-bolditalic.e9b828b3.woff2) format("woff2"),url(https://cluely.com/_next/static/media/aeonik-bolditalic.3fb495d5.woff) format("woff");
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Aeonik;
+    src: url(https://cluely.com/_next/static/media/aeonik-black.8c4267cb.woff2) format("woff2"),url(https://cluely.com/_next/static/media/aeonik-black.f2a4503d.woff) format("woff");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Aeonik;
+    src: url(https://cluely.com/_next/static/media/aeonik-blackitalic.773851ca.woff2) format("woff2"),url(https://cluely.com/_next/static/media/aeonik-blackitalic.869a3243.woff) format("woff");
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap
+}
